@@ -33,10 +33,9 @@ This firmware is not optimized for production use. It is provided as-is, and usi
 
 
 
-The emon rust code is modified & taken from [this repo](https://github.com/iostapyshyn/pzem004t).
-```
+The emon rust code is modified & taken from [this repo](https://github.com/iostapyshyn/pzem004t)
+
 
 ## License
-
 This project is licensed under the MIT License. See the LICENSE file for details.
 MIT license [LICENSE-MIT](http://opensource.org/licenses/MIT)
