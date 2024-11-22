@@ -2,11 +2,15 @@
 This project is a firmware for the ESP32-S3 microcontroller that implements. It implements AT basic structure for the Quectel EC200T IoT module. This also includes a relay controller, a PZEM004T sensor interface, and a subscription manager for MQTT messages.
 
 ## Features
-- **AT Command Handling**: Implements a robust AT command parser and handler for the Quectel EC200T module.
+- **AT Command Handling**: Implements a AT command parser and handler for the Quectel EC200T module.
 - **Relay Controller**: Manages relay states based on received commands.
 - **PZEM004T Sensor Interface**: Reads and processes data from the PZEM004T power sensor.
 - **MQTT Subscription Manager**: Handles subscription messages and commands for MQTT communication.
 - **Dev Containers Support**: Includes support for VS Code Dev Containers and GitHub Codespaces for a seamless development experience.
+
+⚠️ Warning
+
+This firmware is not optimized for production use. It is provided as-is, and using it in critical or high-risk applications is at your own risk. Please ensure thorough testing before deployment in any environment.
 
 ### Flash
 - `cargo run`
